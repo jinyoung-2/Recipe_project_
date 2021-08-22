@@ -1,0 +1,19 @@
+### test get hello
+GET http://localhost:8090/hello
+
+### test post insert
+POST http://localhost:8090/api/v1/memo/insert
+Content-Type: application/json
+
+{ 
+  "dish": "Salmon Nigiri",
+  "description": "Fresh Norwegian salmon, lightly brushed with our herbed Dijon mustard sauce, with choice of two sides.",
+  "ingredient": "Blue Cheese",
+  "measurement": "1/2 tablespoon"
+}
+
+### test get find 
+GET http://localhost:8090/api/v1/memo/find/skip/0/limit/50
+
+### test get delete  
+GET http://localhost:8090/api/v1/memo/delete/id/6120ef1617bffb57a0fc3bc8
