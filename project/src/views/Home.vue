@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Hello! This is Recipe Website</h1>
+    <h1> Recipe Website </h1>
     <img alt="home_img" src="../assets/20171108024157592_IBYNSQCZ.jpg" />
   </div>
 </template>

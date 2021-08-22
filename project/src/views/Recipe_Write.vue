@@ -1,6 +1,6 @@
 <template>
   <div class="recipe_write">
-    <h1>This is a write page</h1>
+    <h1>What do you want to write recipe?</h1>
     <div id="write_wrap">
       <h3>dish</h3>
       <input type="text" v-model="dish_val" /><br />
